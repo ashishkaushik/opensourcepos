@@ -28,8 +28,8 @@
 
 #table_action_header ul li span a
 {
-	background-color:#0a6184;
-	border:2px solid #DDDDDD;
+	background-color:#7EB562;
+	border:2px solid #39751F;
 	padding:2px 5px 2px 5px;
 	
 }
@@ -50,7 +50,7 @@ table.tablesorter
 {
 	position:relative;
 	width:100%;
-	border-top:3px solid #0a6184;
+	border-top:3px solid #39751F;
 	border-collapse:collapse;
 }
 
@@ -58,7 +58,7 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th
 {
 	color:#FFFFFF;
 	text-align:left;
-	background-color:#4386a1;
+	background-color:#39751F;
 	padding: 0px 5px 0px 5px;
 	
 }

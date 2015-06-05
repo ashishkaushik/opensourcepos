@@ -4,7 +4,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" rev="stylesheet" href="<?php echo base_url();?>css/login.css" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Open Source Point Of Sale <?php echo $this->lang->line('login_login'); ?></title>
+<title>The Green Leaf <?php echo $this->lang->line('login_login'); ?></title>
 <script src="<?php echo base_url();?>js/jquery-1.8.3.js" type="text/javascript" language="javascript" charset="UTF-8"></script>
 <script type="text/javascript">
 $(document).ready(function()
@@ -15,7 +15,7 @@ $(document).ready(function()
 </head>
 <body>
 
-<div align="center" style="margin-top:10px"><img src=<?php echo base_url();?>/images/logo.gif>
+<div align="center" style="margin-top:5px"><img src=<?php echo base_url();?>/images/loginboard.jpg>
 
 </div>
 
@@ -30,7 +30,8 @@ $(document).ready(function()
 	<div id="login_form">
 
 		
-		<div class="form_field_label"><?php echo $this->lang->line('login_username'); ?>: </div>
+		<div class="form_field_label"><?php //echo $this->lang->line('login_username');
+		echo "Who ?" ?> </div>
 		<div class="form_field">
 		<?php echo form_input(array(
 		'name'=>'username',
@@ -38,7 +39,8 @@ $(document).ready(function()
 		'size'=>'20')); ?>
 		</div>
 
-		<div class="form_field_label"><?php echo $this->lang->line('login_password'); ?>: </div>
+		<div class="form_field_label"><?php //echo $this->lang->line('login_password'); 
+		echo "What ?" ?> </div>
 		<div class="form_field">
 		<?php echo form_password(array(
 		'name'=>'password',
@@ -48,13 +50,13 @@ $(document).ready(function()
 		</div>
 		
 		<div id="submit_button">
-		<?php echo form_submit('loginButton','Go'); ?>
+		<?php echo form_submit('loginButton','Go TGL'); ?>
 		</div>
 		
 		
 	</div>
 	
 </div>
-<?php echo form_close(); ?><h1>Open Source Point Of Sale <?php echo $this->config->item('application_version'); ?></h1>
+<?php echo form_close(); ?><h1> <?php //echo $this->config->item('application_version'); ?></h1>
 </body>
 </html>

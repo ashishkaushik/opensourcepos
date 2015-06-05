@@ -3,7 +3,7 @@
 <h3><?php echo $this->lang->line('common_welcome_message'); ?></h3>
 <div id="home_module_list">
 	<?php
-	foreach($allowed_modules->result() as $module)
+	/*foreach($allowed_modules->result() as $module)
 	{
 		if (sizeof(explode('_', $module->module_id)) == 1)
 		{
@@ -17,6 +17,6 @@
 	<?php
 		}
 	}
-	?>
+	*/?>
 </div>
 <?php $this->load->view("partial/footer"); ?>
